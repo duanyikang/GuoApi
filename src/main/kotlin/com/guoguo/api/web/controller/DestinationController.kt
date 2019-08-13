@@ -1,10 +1,10 @@
-package com.kotlin.tutorial.web.controller
+package com.guoguo.api.web.controller
 
-import com.kotlin.tutorial.destination.bean.HeadInfo
-import com.kotlin.tutorial.destination.IMddService
-import com.kotlin.tutorial.destination.bean.BottomItemInfo
-import com.kotlin.tutorial.destination.bean.MiddleInfo
-import com.kotlin.tutorial.web.dto.HttpResponse
+import com.guoguo.api.destination.bean.HeadInfo
+import com.guoguo.api.destination.IMddService
+import com.guoguo.api.destination.bean.BottomItemInfo
+import com.guoguo.api.destination.bean.MiddleInfo
+import com.guoguo.api.web.dto.HttpResponse
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -29,17 +29,17 @@ class DestinationController {
     }
 
     @GetMapping("/getMddMiddleInfo")
-    fun getMiddleInfo(@RequestParam("local") local: String):HttpResponse<MiddleInfo>{
+    fun getMiddleInfo(@RequestParam("local") local: String): HttpResponse<MiddleInfo> {
         return HttpResponse(mddService.getMiddleInfo(local))
     }
 
     @GetMapping("/getMddBottomTags")
-    fun getBottomTags(@RequestParam("local") local: String):HttpResponse<List<String>>{
+    fun getBottomTags(@RequestParam("local") local: String): HttpResponse<List<String>> {
         return HttpResponse(listOf("综合","最新","网红打卡","京郊游","老北京名吃","还有就不知道了"))
     }
 
     @GetMapping("/getMddBottomItem")
-    fun getBottomItems(@RequestParam("tag") tag: String):HttpResponse<BottomItemInfo>{
+    fun getBottomItems(@RequestParam("tag") tag: String): HttpResponse<BottomItemInfo> {
         return HttpResponse(mddService.getBottomDetail(tag))
     }
 }

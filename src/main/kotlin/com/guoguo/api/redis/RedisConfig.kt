@@ -1,4 +1,4 @@
-package com.kotlin.tutorial.redis
+package com.guoguo.api.redis
 
 import org.springframework.data.redis.core.RedisTemplate
 import org.springframework.data.redis.connection.RedisConnectionFactory

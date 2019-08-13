@@ -1,7 +1,7 @@
-package com.kotlin.tutorial.user.service.impl
+package com.guoguo.api.user.service.impl
 
-import com.kotlin.tutorial.user.User
-import com.kotlin.tutorial.user.service.IUserService
+import com.guoguo.api.user.User
+import com.guoguo.api.user.service.IUserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.redis.core.RedisTemplate
 import org.springframework.stereotype.Service

@@ -1,4 +1,4 @@
-package com.kotlin.tutorial.bean
+package com.guoguo.api.bean
 
 import java.io.Serializable
 

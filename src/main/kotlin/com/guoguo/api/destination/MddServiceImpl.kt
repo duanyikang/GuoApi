@@ -1,8 +1,9 @@
-package com.kotlin.tutorial.destination
+package com.guoguo.api.destination
 
-import com.kotlin.tutorial.destination.bean.BottomItemInfo
-import com.kotlin.tutorial.destination.bean.HeadInfo
-import com.kotlin.tutorial.destination.bean.MiddleInfo
+import com.guoguo.api.destination.IMddService
+import com.guoguo.api.destination.bean.BottomItemInfo
+import com.guoguo.api.destination.bean.HeadInfo
+import com.guoguo.api.destination.bean.MiddleInfo
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.redis.core.RedisTemplate
 import org.springframework.stereotype.Service

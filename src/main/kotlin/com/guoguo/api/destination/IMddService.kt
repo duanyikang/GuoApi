@@ -1,8 +1,8 @@
-package com.kotlin.tutorial.destination
+package com.guoguo.api.destination
 
-import com.kotlin.tutorial.destination.bean.BottomItemInfo
-import com.kotlin.tutorial.destination.bean.HeadInfo
-import com.kotlin.tutorial.destination.bean.MiddleInfo
+import com.guoguo.api.destination.bean.BottomItemInfo
+import com.guoguo.api.destination.bean.HeadInfo
+import com.guoguo.api.destination.bean.MiddleInfo
 
 interface IMddService {
 

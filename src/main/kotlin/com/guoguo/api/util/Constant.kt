@@ -1,4 +1,4 @@
-package com.kotlin.tutorial.util
+package com.guoguo.api.util
 
 class Constant{
     companion object {

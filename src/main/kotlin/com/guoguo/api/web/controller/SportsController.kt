@@ -1,8 +1,8 @@
-package com.kotlin.tutorial.web.controller
+package com.guoguo.api.web.controller
 
-import com.kotlin.tutorial.bean.BannerBean
-import com.kotlin.tutorial.util.Constant
-import com.kotlin.tutorial.web.dto.HttpResponse
+import com.guoguo.api.bean.BannerBean
+import com.guoguo.api.util.Constant
+import com.guoguo.api.web.dto.HttpResponse
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController

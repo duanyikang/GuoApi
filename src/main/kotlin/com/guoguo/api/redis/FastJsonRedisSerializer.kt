@@ -1,4 +1,4 @@
-package com.kotlin.tutorial.redis
+package com.guoguo.api.redis
 
 import com.alibaba.fastjson.JSON
 import com.alibaba.fastjson.serializer.SerializerFeature

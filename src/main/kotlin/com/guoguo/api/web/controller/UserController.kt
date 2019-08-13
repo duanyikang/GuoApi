@@ -1,8 +1,8 @@
-package com.kotlin.tutorial.web.controller
+package com.guoguo.api.web.controller
 
-import com.kotlin.tutorial.user.User
-import com.kotlin.tutorial.user.service.IUserService
-import com.kotlin.tutorial.web.dto.HttpResponse
+import com.guoguo.api.user.User
+import com.guoguo.api.user.service.IUserService
+import com.guoguo.api.web.dto.HttpResponse
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping

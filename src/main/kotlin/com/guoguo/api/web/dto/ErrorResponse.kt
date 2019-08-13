@@ -1,3 +1,3 @@
-package com.kotlin.tutorial.web.dto
+package com.guoguo.api.web.dto
 
 data class ErrorResponse(val message: String?)

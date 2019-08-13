@@ -1,4 +1,4 @@
-package com.kotlin.tutorial
+package com.guoguo.api
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

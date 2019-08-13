@@ -1,6 +1,6 @@
-package com.kotlin.tutorial.user.service
+package com.guoguo.api.user.service
 
-import com.kotlin.tutorial.user.User
+import com.guoguo.api.user.User
 
 interface IUserService {
 
